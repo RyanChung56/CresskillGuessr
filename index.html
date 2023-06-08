@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/chalkduster" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/aventena" rel="stylesheet">
+  </head>
+  <body>
+    <div id="start-screen">
+      <div class="logo-container">
+        <img src="CG_Logo.png" alt="CresskillGuessr Logo" class="logo">
+      </div>
+      <h1>
+        <span class="logo-text">CresskillGuessr</span>
+      </h1>
+      <button id="start-button">Start New Game</button>
+      <p>Guess the CHS locations in only one try.<br><br>ⓘ made by Yonatan and Ryan</p>
+    </div>
+
+    <div id="game-screen" style="display: none;">
+      <h1>Guess the Location</h1>
+      <div class="image-container">
+        <img src="Image1.jpg" alt="Left Image" class="left-image">
+        <div id="success-message"></div>
+        <div id="error-message"></div>
+        <div class="strike">Strikes: <span id="strike-count">0</span>/3</div>
+      </div>
+      
+      <div class="map-container">
+        <img class="map" src="map.jpg" alt="" width="500" height="700" />
+        <div class="score">Score: <span id="score-count">0</span>/5</div>
+        <input type="text" id="location-input" placeholder="Enter Location">
+        <button id="guess-button">Guess</button>
+      </div>
+    </div>
+      
+    <div id="game-over-screen" style="display: none;">
+      <h1>Game Over!</h1>
+      <p>Your Final Score: <span id="final-score">0</span> / 5</p>
+      <button id="restart-button">Restart</button>
+    </div>
+      
+    <script src="script.js"></script>
+  </body>
+</html>
