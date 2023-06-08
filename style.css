@@ -1,0 +1,150 @@
+body {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#start-screen {
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: red;
+  font-family: 'AVENTENA', sans-serif;
+}
+
+button {
+  font-size: 24px;
+  padding: 10px 20px;
+  font-family: 'Chalkduster', sans-serif;
+}
+
+p {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.logo-container {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px; 
+  margin-bottom: 3px;
+}
+
+.logo {
+  width: 150px; 
+  height: 150px; 
+}
+
+.logo-text {
+  vertical-align: middle;
+}
+
+#game-screen {
+  display: flex;
+  align-items: flex-start;
+}
+
+.image-container {
+  float: left;
+  margin-right: 10px;
+}
+
+.left-image {
+  width: 700px;
+  height: auto; 
+}
+
+.map-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.map {
+  width: 500px;
+  height: 700px;
+  position: relative;
+  z-index: 0;
+}
+
+.strike {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Chalkduster', sans-serif;
+}
+.strike-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  margin-top: 10px;
+}
+
+.guess-input {
+  font-size: 24px;
+  padding: 10px 20px;
+  font-family: 'Chalkduster', sans-serif;
+  margin-top: 10px;
+}
+
+#guess-button {
+  display: none;
+}
+
+.score {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Chalkduster', sans-serif;
+}
+
+.score-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#game-over-screen {
+  display: none;
+  text-align: center;
+}
+
+#game-over-screen h1 {
+  font-size: 48px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: red;
+  font-family: 'AVENTENA', sans-serif;
+}
+
+#game-over-screen p {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+#game-over-screen button {
+  font-size: 24px;
+  padding: 10px 20px;
+  font-family: 'Chalkduster', sans-serif;
+}
+
+#restart-button {
+  font-size: 24px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#restart-button:hover {
+  background-color: #45a049;
+}
