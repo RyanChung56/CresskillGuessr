@@ -1,4 +1,6 @@
-# CresskillGuessr 📍 
+<img src="https://github.com/RyanChung56/CresskillGuessr/assets/80281485/ebd699a4-2bc1-42cf-9bcd-114df187f206" align="right" width="350">
+
+# CresskillGuessr 📍
 CresskillGuessr for AP CSA Final Project
 
 CresskillGuessr is a web-based game where players have to guess the location of various places in CHS. The objective is to guess the correct locations within 3 strikes to get 5 right.
