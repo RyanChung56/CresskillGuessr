@@ -26,7 +26,7 @@ Our Motivation for CresskillGuessr was inspired for our shared love of the game 
    - The game allows a maximum of 3 strikes.
    - The goal is to achieve a score of 5 without reaching the maximum strikes.
 
-4. Game Over: ☠️ <img src="https://github.com/RyanChung56/CresskillGuessr/assets/80281485/fa1f9e97-3172-47d8-80c7-b19105385644" align="right">
+4. Game Over: ☠️ <img src="https://github.com/RyanChung56/CresskillGuessr/assets/80281485/fa1f9e97-3172-47d8-80c7-b19105385644" align="right" height="200">
    - The game ends in two scenarios:
      - If you reach a score of 5, you win the game.
      - If you receive 3 strikes, the game is over.
